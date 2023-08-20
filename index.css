@@ -1,0 +1,89 @@
+/* GLOBAL */
+
+/* Font Awesome Icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Gradient for all Header 1 elements */
+h1 {
+    background: linear-gradient(180deg, #93A8ED 0%, #B0C3F4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent; /* Ensure text color is transparent */
+    -webkit-text-fill-color: transparent;
+}
+
+/* Default background color for sections without gradient */
+.section-background {
+    background-color: #FCFCFC !important;
+}
+
+/* Buttons: Gradient and border radius */
+.sqs-block-button-element {
+    border-radius: 29px;
+    background: linear-gradient(90deg, #A9D7F6 0%, #6679DE 100%);
+}
+
+
+
+/* HOME PAGE */
+/* First section: Gradient from the bottom right */
+section[data-section-id="64e180f91efcc85a9816f478"] .section-background {
+    background: linear-gradient(148deg, #FCFCFC 20%, #DDE5FB 65%, #A7BAF0 80%, #54BAF7 100%);
+}
+
+/* Second section: Gradient from the bottom left */
+section[data-section-id="64e18314f32e411dc6466825"] .section-background {
+    background: linear-gradient(205deg, #FCFCFC 50%, #DDE5FB 75%, #A7BAF0 90%, #54BAF7 100%);
+}
+
+/* Third section: Gradient from the top left */
+section[data-section-id="64e186c00d901d64705b3657"] .section-background {
+    background: linear-gradient(340deg, #FCFCFC 40%, #DDE5FB 65%, #A7BAF0 80%, #54BAF7 100%);
+}
+
+/* Footer section: Gradient from top to bottom */
+section[data-section-id="64e1894addb7932eb7ec4e6e"] .section-background {
+    background: linear-gradient(180deg, #FCFCFC 20%, #B2C2FF 30%, #6C7EDB 100%);
+}
+
+
+
+/* ABOUT PAGE */
+/* First section: Gradient from the top left */
+section[data-section-id="64e1bb4ef32e411dc649529c"] .section-background {
+    background: linear-gradient(340deg, #FCFCFC 75%, #DDE5FB 85%, #A7BAF0 95%, #54BAF7 100%);
+}
+
+
+
+/* CLIENTS PAGE */
+/* First section: Gradient from the top right */
+section[data-section-id="64e1c0ffb71d18560d4cd09b"] .section-background {
+    background: linear-gradient(45deg, #FCFCFC 40%, #DDE5FB 75%, #A7BAF0 90%, #54BAF7 100%);
+}
+
+/* Fifth section: Gradient from the bottom right */
+section[data-section-id="64e1ce78cc1ed155602469ac"] .section-background {
+    background: linear-gradient(148deg, #FCFCFC 40%, #DDE5FB 75%, #A7BAF0 90%, #54BAF7 100%);
+}
+
+
+
+/* APPLY PAGE */
+/* First section: Gradient from the bottom right */
+section[data-section-id="64e1d2f861d39a3811dc32b2"] .section-background {
+    background: linear-gradient(148deg, #FCFCFC 30%, #DDE5FB 60%, #A7BAF0 90%, #54BAF7 100%);
+}
+
+/* Second section: Gradient from the bottom left */
+section[data-section-id="64e1d73c29e7580ddd3f3b11"] .section-background {
+    background: linear-gradient(205deg, #FCFCFC 50%, #DDE5FB 85%, #A7BAF0 95%, #54BAF7 100%);
+}
+
+
+
+/* CONTACT PAGE */
+/* First section: Gradient from the top left */
+section[data-section-id="64e1d8c93ec2342be703d078"] .section-background {
+    background: linear-gradient(340deg, #FCFCFC 75%, #DDE5FB 85%, #A7BAF0 95%, #54BAF7 100%);
+}
