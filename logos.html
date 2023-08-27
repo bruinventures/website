@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Logo Slider</title>
+    <style>
+        .logo-slider {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .slider-container {
+            display: flex;
+            animation: slide 60s linear infinite;
+        }
+
+        .slider-container .logo-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 165px;
+            /* Set the width for the logo wrapper (square size) */
+            height: 165px;
+            /* Set the height for the logo wrapper (square size) */
+            margin-right: 180px;
+            /* Adjust spacing between images */
+        }
+
+        .slider-container img {
+            max-width: 100%;
+            /* Ensure logos don't stretch */
+            max-height: 100%;
+            /* Ensure logos don't stretch */
+            filter: grayscale(100%);
+            margin-right: 200px;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(0%);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo Slider Structure -->
+    <div class="logo-slider">
+        <div class="slider-container">
+            <!-- List of logos -->
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/microsofy.png?raw=true"
+                    alt="Microsoft Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/ey.png?raw=true" alt="EY Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/pwc.png?raw=true" alt="PwC Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/citi.png?raw=true"
+                    alt="Citi Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/vmware.png?raw=true"
+                    alt="VMware Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/salesforce.png?raw=true"
+                    alt="Salesforce Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/morgan-stanley.png?raw=true"
+                    alt="Morgan Stanley Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/kpmg.png?raw=true"
+                    alt="KPMG Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/oracle.png?raw=true"
+                    alt="Oracle Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/x.png?raw=true" alt="X Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/goldman-sachs.jpeg?raw=true"
+                    alt="Goldman Sachs Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/visa.png?raw=true"
+                    alt="Visa Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/credit-suisse.png?raw=true"
+                    alt="Credit Suisse Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/paramount.png?raw=true"
+                    alt="Paramount Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/bain-and-company.png?raw=true"
+                    alt="Bain and Company Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/nasa.png?raw=true"
+                    alt="NASA Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/adobe.png?raw=true"
+                    alt="Adobe Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/nvidia.png?raw=true"
+                    alt="NVIDIA Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/fidelity-investments.png?raw=true"
+                    alt="Fidelity Investments Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/amazon.png?raw=true"
+                    alt="Amazon Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/american-express.png?raw=true"
+                    alt="American Express Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/Deloitte.png?raw=true"
+                    alt="Deloitte Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/jp-morgan.png?raw=true"
+                    alt="JP Morgan Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/mastercard.png?raw=true"
+                    alt="Mastercard Logo">
+            </div>
+            <div class="logo-wrapper">
+                <img src="https://github.com/bruinventures/website/blob/main/pictures/google.jpg?raw=true"
+                    alt="Google Logo">
+            </div>
+            <!-- Repeat for all logos -->
+        </div>
+    </div>
+
+</body>
+
+</html>
