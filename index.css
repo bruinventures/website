@@ -20,7 +20,7 @@ h1 {
 /* Buttons: Gradient and border radius */
 .sqs-block-button-element {
     border-radius: 29px;
-    background: linear-gradient(90deg, #A9D7F6 0%, #6679DE 100%);
+    background: linear-gradient(90deg, #5A9CF7 0%, #A49BF7 100%);
 }
 
 
@@ -28,22 +28,22 @@ h1 {
 /* HOME PAGE */
 /* First section: Gradient from the bottom right */
 section[data-section-id="64e180f91efcc85a9816f478"] .section-background {
-    background: linear-gradient(148deg, #FCFCFC 20%, #DDE5FB 65%, #A7BAF0 80%, #5A9CF7 100%);
+    background: linear-gradient(148deg, #FCFCFC 28%, #EDF5FF 65%, #b8d6ff 85%, #c7c1ff  100%);
 }
 
 /* Second section: Gradient from the bottom left */
 section[data-section-id="64e18314f32e411dc6466825"] .section-background {
-    background: linear-gradient(205deg, #FCFCFC 50%, #DDE5FB 75%, #A7BAF0 90%, #5A9CF7 100%);
+    background: linear-gradient(205deg, #FCFCFC 28%, #EDF5FF 75%, #b8d6ff 90%, #c7c1ff  100%);
 }
 
 /* Third section: Gradient from the top left */
 section[data-section-id="64e186c00d901d64705b3657"] .section-background {
-    background: linear-gradient(340deg, #FCFCFC 40%, #DDE5FB 65%, #A7BAF0 80%, #5A9CF7 100%);
+    background: linear-gradient(340deg, #FCFCFC 28%, #EDF5FF 65%, #b8d6ff 85%, #c7c1ff  100%);
 }
 
 /* Footer section: Gradient from top to bottom */
 section[data-section-id="64e1894addb7932eb7ec4e6e"] .section-background {
-    background: linear-gradient(180deg, #FCFCFC 20%, #B2C2FF 30%, #6C7EDB 100%);
+    background: linear-gradient(180deg, #FCFCFC 28%, #a2c6f8 30%, #5A9CF7 100%);
 }
 
 
@@ -51,7 +51,7 @@ section[data-section-id="64e1894addb7932eb7ec4e6e"] .section-background {
 /* TEAM PAGE */
 /* First section: Gradient from the top left */
 section[data-section-id="64e1bb4ef32e411dc649529c"] .section-background {
-    background: linear-gradient(340deg, #FCFCFC 75%, #DDE5FB 85%, #A7BAF0 95%, #5A9CF7 100%);
+    background: linear-gradient(340deg, #FCFCFC 28%, #EDF5FF 85%, #b8d6ff 95%, #c7c1ff  100%);
 }
 
 
@@ -59,30 +59,24 @@ section[data-section-id="64e1bb4ef32e411dc649529c"] .section-background {
 /* CLIENTS PAGE */
 /* First section: Gradient from the top right */
 section[data-section-id="64e1c0ffb71d18560d4cd09b"] .section-background {
-    background: linear-gradient(45deg, #FCFCFC 40%, #DDE5FB 75%, #A7BAF0 90%, #5A9CF7 100%);
+    background: linear-gradient(45deg, #FCFCFC 40%, #EDF5FF 75%, #b8d6ff 90%, #c7c1ff  100%);
 }
 
 /* Third section: Gradient from the bottom right */
 section[data-section-id="64ea4065d3417a301b8c4c34"] .section-background {
-    background: linear-gradient(148deg, #FCFCFC 40%, #DDE5FB 75%, #A7BAF0 90%, #5A9CF7 100%);
+    background: linear-gradient(148deg, #FCFCFC 40%, #EDF5FF 75%, #b8d6ff 90%, #c7c1ff  100%);
 }
-
-/* Fifth section: Gradient from the bottom left */
-section[data-section-id="64e1cfe80d4698056afdb213"] .section-background {
-    background: linear-gradient(205deg, #FCFCFC 50%, #DDE5FB 85%, #A7BAF0 95%, #5A9CF7 100%);
-}
-
 
 
 /* APPLY PAGE */
 /* First section: Gradient from the bottom right */
 section[data-section-id="64ea3ba6521bb323c84e68a7"] .section-background {
-    background: linear-gradient(148deg, #FCFCFC 30%, #DDE5FB 60%, #A7BAF0 90%, #5A9CF7 100%);
+    background: linear-gradient(148deg, #FCFCFC 30%, #EDF5FF 60%, #b8d6ff 90%, #c7c1ff  100%);
 }
 
 /* Second section: Gradient from the bottom left */
 section[data-section-id="64ea3b65a7ff145536796249"] .section-background {
-    background: linear-gradient(205deg, #FCFCFC 50%, #DDE5FB 85%, #A7BAF0 95%, #5A9CF7 100%);
+    background: linear-gradient(205deg, #FCFCFC 50%, #EDF5FF 85%, #b8d6ff 95%, #c7c1ff  100%);
 }
 
 
@@ -90,5 +84,5 @@ section[data-section-id="64ea3b65a7ff145536796249"] .section-background {
 /* CONTACT PAGE */
 /* First section: Gradient from the top left */
 section[data-section-id="64e1d8c93ec2342be703d078"] .section-background {
-    background: linear-gradient(340deg, #FCFCFC 75%, #DDE5FB 85%, #A7BAF0 95%, #5A9CF7 100%);
+    background: linear-gradient(340deg, #FCFCFC 75%, #EDF5FF 85%, #b8d6ff 95%, #c7c1ff  100%);
 }

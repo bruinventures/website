@@ -12,11 +12,6 @@
             width: 100%;
         }
 
-        .slider-container {
-            display: flex;
-            animation: slide 60s linear infinite;
-        }
-
         .slider-container .logo-wrapper {
             display: flex;
             align-items: center;
@@ -36,6 +31,52 @@
             /* Ensure logos don't stretch */
             filter: grayscale(100%);
             margin-right: 200px;
+        }
+
+        .slider-container {
+            display: flex;
+            animation: slide 60s linear infinite;
+            /* Default for larger screens */
+        }
+
+        /* Screen width up to 400px */
+        @media screen and (max-width: 400px) {
+            .slider-container {
+                animation: slide 20s linear infinite;
+                /* Faster for very small screens with 40s delay */
+            }
+        }
+
+        /* Screen width between 401px and 600px */
+        @media screen and (min-width: 401px) and (max-width: 600px) {
+            .slider-container {
+                animation: slide 30s linear infinite;
+                /* Faster for small screens with 30s delay */
+            }
+        }
+
+        /* Screen width between 601px and 900px */
+        @media screen and (min-width: 601px) and (max-width: 900px) {
+            .slider-container {
+                animation: slide 45s linear infinite;
+                /* Medium speed for medium screens with 15s delay */
+            }
+        }
+
+        /* Screen width between 901px and 1200px */
+        @media screen and (min-width: 901px) and (max-width: 1200px) {
+            .slider-container {
+                animation: slide 50s linear infinite;
+                /* Slower for large screens with 10s delay */
+            }
+        }
+
+        /* Screen width between 1201px and 1600px */
+        @media screen and (min-width: 1201px) and (max-width: 1600px) {
+            .slider-container {
+                animation: slide 55s linear infinite;
+                /* Even slower for larger screens with 5s delay */
+            }
         }
 
         @keyframes slide {
